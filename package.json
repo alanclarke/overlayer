@@ -1,0 +1,41 @@
+{
+  "name": "overlayer",
+  "version": "0.0.0",
+  "description": "A tiny animating overlay backdrop lib using css3 animations",
+  "main": "maxz.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/karma start --single-run && node_modules/.bin/standard",
+    "start": "node_modules/.bin/serve -p 1234"
+  },
+  "author": {
+    "name": "Alan Clarke",
+    "email": "alan@qubit.com",
+    "url": "qubit.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QubitProducts/maxz.git"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-mocha": "^0.2.2",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.4.5",
+    "serve": "^1.4.0",
+    "sinon": "^2.0.0-pre",
+    "standard": "^6.0.8",
+    "systemjs": "^0.19.25",
+    "webpack": "^1.12.14"
+  },
+  "dependencies": {
+    "animates": "qubitproducts/animates",
+    "maxz": "^1.0.3"
+  }
+}
