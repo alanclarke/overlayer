@@ -31,6 +31,7 @@ options:
 - auto // auto show (default: true)
 - speed (ms) // default 1000
 */
+```
 
 ## demo
 ```js
