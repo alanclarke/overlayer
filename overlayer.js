@@ -1,4 +1,3 @@
-var maxz = require('maxz')
 var animates = require('animates')
 
 module.exports = function overlayer (opts) {
@@ -6,12 +5,12 @@ module.exports = function overlayer (opts) {
   if (typeof opts.speed === 'undefined') opts.speed = 1000
   var cleanups = []
   var el = document.createElement('div')
-  el.setAttribute('style', 'position:fixed;width:100%;height:100%;top:0px;left:0px;background:rgba(0,0,0,0.7)')
+  var style = 'position:fixed;width:100%;height:100%;top:0px;left:0px;background:rgba(0,0,0,0.7);z-index:1;'
+  el.setAttribute('style', style)
   if (opts.auto !== false) show()
   return { el: el, show: show, hide: hide, destroy: destroy }
 
   function show (speed) {
-    el.style.zIndex = maxz()
     fade(1, speed)
   }
 
