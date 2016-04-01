@@ -2,7 +2,7 @@
   "name": "overlayer",
   "version": "0.0.2",
   "description": "A tiny animating overlay backdrop lib using css3 animations",
-  "main": "maxz.js",
+  "main": "overlayer.js",
   "directories": {
     "test": "test"
   },
