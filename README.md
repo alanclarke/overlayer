@@ -43,3 +43,6 @@ npm start
 ```
 npm test
 ```
+
+## browser compatibility
+works in all good browsers! (also in ie9+)
