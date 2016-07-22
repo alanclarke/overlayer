@@ -7,14 +7,10 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node_modules/.bin/karma start --single-run && node_modules/.bin/standard",
+    "test": "karma start --single-run && node_modules/.bin/standard",
     "start": "node demo/server"
   },
-  "author": {
-    "name": "Alan Clarke",
-    "email": "alan@qubit.com",
-    "url": "qubit.com"
-  },
+  "author": "Alan Clarke <alan@qubit.com> (qubit.com)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/QubitProducts/overlayer.git"
@@ -36,5 +32,14 @@
   },
   "dependencies": {
     "animates": "^1.2.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/QubitProducts/overlayer/issues"
+  },
+  "homepage": "https://github.com/QubitProducts/overlayer#readme",
+  "keywords": [
+    "overlay",
+    "backdrop",
+    "background"
+  ]
 }
