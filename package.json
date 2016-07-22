@@ -1,6 +1,6 @@
 {
   "name": "overlayer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny animating overlay backdrop lib using css3 animations",
   "main": "overlayer.js",
   "directories": {
